@@ -8,7 +8,8 @@ def draw():
     print(hex(get(100, 100)))
     print(CODED)
     if keyPressed:
-        if keyCode == 39:
+        fill(105,255,0)
+        if keyCode == 39 and mouseX>=260 and mouseX<=370 and mouseY>=230 and mouseY<=260:
             fill(0)
         text("beka", width/2+120, (height/3)*2)
         fill(255,50,30)
